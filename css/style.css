@@ -405,6 +405,7 @@ article img{
 	}
 	.product {
 		top: 80px;
+		width: 75%;
 	}
 	.product__heading__text {
 		transform: none;
@@ -429,10 +430,10 @@ article img{
 }
 @media only screen and (max-width:724px){
 	#commands {
-		bottom: 50px;
+		bottom: 90px;
 	}
 	#active {
-		bottom: 100px;
+		bottom: 140px;
 	}
 }
 @media only screen and (max-width:575px){
@@ -444,6 +445,11 @@ article img{
 	}
 	.download {
 		right: 32%;
+	}
+}
+@media only screen and (max-width:525px){
+	.product {
+		top: 30px;
 	}
 }
 @media only screen and (max-width:500px){
@@ -494,12 +500,12 @@ article img{
 }
 @media only screen and (max-width:423px){
 	#commands {
-		bottom: 36px;
+		bottom: 65px;
 		left: 35px;
 	}
 	#active {
-		bottom: 86px;
-		left: 165px;
+		bottom: 116px;
+		left: 162px;
 	}
 	.download {
 		right: 17%;
@@ -520,11 +526,11 @@ article img{
 	}
 	#commands {
 		left: 8px;
-		bottom: 50px;
+		bottom: 80px;
 	}
 	#active {
-		left: 138px;
-		bottom: 100px;
+		left: 136px;
+		bottom: 130px;
 	}
 	.form-wrap input {
 		width: 270px;
@@ -533,7 +539,7 @@ article img{
 		right: 13%;
 	}
 	.product {
-		top: 100px;
+		top: 50px;
 	}
 }
 
